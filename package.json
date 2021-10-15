@@ -1,0 +1,24 @@
+{
+  "name": "challenge-week18",
+  "version": "1.0.0",
+  "description": "Social Network API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TPhondeth/challenge-week18.git"
+  },
+  "author": "Tony Phondeth",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TPhondeth/challenge-week18/issues"
+  },
+  "homepage": "https://github.com/TPhondeth/challenge-week18#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.11"
+  }
+}
