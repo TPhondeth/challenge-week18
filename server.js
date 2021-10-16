@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(require('./routes'));
 
 mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/challenge-week18', {
-    useFindAndModify: false,
+    // useFindAndModify: true,
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
